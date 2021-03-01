@@ -1,87 +1,259 @@
 <!DOCTYPE html>
 <html lang="de">
-  <head>
-    <meta charset="utf-8">
-    <title>Mein Testseite</title>
-	<link href="styles/style.css" rel="stylesheet" type="text/css">
-	<link href="https://fonts.googleapis.com/css2?family=Gruppo&family=Roboto:wght@300&display=swap" rel="stylesheet"> 
+
+<head>
+	<title>Mein Testseite</title>
+
+	<meta charset="utf-8">
+	<meta name="keywords" content="HTML, CSS, JavaScript">
 	<meta name="author" content="Caglar Calayir">
 	<meta name="description" content="Eine Beschreibung welche zum Inhalt der Seite passende Stichwörter enthält, 
 		ist ein sinnvoller Weg, die Webseite in Suchmaschinen zu relevanten Suchbegriffen weiter oben erscheinen zu 
 		lassen.Diese Beschreibung wird zB.: für SEO verwendet.">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link href="styles/style.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css2?family=Gruppo&family=Roboto:wght@300&display=swap" rel="stylesheet">
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  </head>
-  <body>
-	<ul>
-		<li>Home</li>
-		<li><a href="projects.html">Projects</a></li>
-		<li><a href="contacts.html">Contacts</a></li>
-	</ul>
-  
-	<h1>Die Reise beginnt..</h1>
-    <img src="bilder/index2.png" alt="Mein Testbild">
-	<p>Die Sachen die wir dabei haben sollten sind: </p>
-	
-	<ul>
-	<li>Guide</li>
-	<li>Rucksack</li>
-	<li>Motivation</li>
-	</ul>
-	
-	<ol>
-	<li>Guide</li>
-	<li>Rucksack</li>
-	<li>Motivation</li>
-	</ol>
-	
-	<p>At vero eos et 
-	accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea 
-	takimata sanctus est Lorem ipsum dolor sit amet. At vero eos et 
-	accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea 
-	takimata sanctus est Lorem ipsum dolor sit amet. At vero eos et 
-	accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea 
-	takimata sanctus est Lorem ipsum dolor sit amet. At vero eos et 
-	accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea 
-	takimata sanctus est Lorem ipsum dolor sit amet.</p>
-	
-	<p>Möchten Sie uns einen Brief schicken? Schreiben Sie an unsere  <a href="contacts.html#postanschrift">Postanschrift</a>.</p>
-	
-	<p>At vero eos et 
-	accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea 
-	takimata sanctus est Lorem ipsum dolor sit amet. At vero eos et 
-	accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea 
-	takimata sanctus est Lorem ipsum dolor sit amet. At vero eos et 
-	accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea 
-	takimata sanctus est Lorem ipsum dolor sit amet. At vero eos et 
-	accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea 
-	takimata sanctus est Lorem ipsum dolor sit amet.</p>
-	
-	<p>Lorem ipsum dolor sit amet, <a target="_blank" title="The Mozilla homepage" href="https://developer.mozilla.org/de/docs/Learn/Getting_started_with_the_web/HTML_basics">HTML-Grundlagen</a> consetetur sadipscing elitr, 
-	sed diam nonumy eirmod tempor invidunt ut labore et dolore magna 
-	aliquyam erat, sed diam voluptua.</p>
-	<p>At vero eos et accusam et justo 
-	duo dolores et ea rebum. Stet <strong>clita kasd</strong> gubergren, no sea takimata 
-	sanctus est Lorem ipsum dolor sit amet. </p>
-	<input type="text" disabled="disabled">
-	<input type="text">
-	
-	<p>Lorem ipsum dolor sit amet, 
-	<em>consetetur sadipscing </em>elitr, sed diam nonumy eirmod tempor invidunt ut 
-	labore et dolore magna aliquyam erat, sed diam voluptua. </p>
-	
-	<p>Möchten Sie Kontakt mit uns augfnehmen?
-	Finden Sie unsere Kontaktinformationen auf unserer <a href="contacts.html">Kontakt-Seite</a>.</p>
-	
-	
-	<p>At vero eos et accusam et justo 
-	duo dolores et ea rebum. Stet <strong>clita kasd</strong> gubergren, no sea takimata 
-	sanctus est Lorem ipsum dolor sit amet. </p>
-	
-	<p>At vero eos et 
-	accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea 
-	takimata sanctus est Lorem ipsum dolor sit amet.</p>
-	
+</head>
+
+<body>
+	<header>
+		<h1>Die Reise beginnt..</h1>
+
+		<nav>
+			<ul>
+				<li><a href=#>Home</a></li>
+				<li><a href="projects.html">Projects</a></li>
+				<li><a href="contacts.html">Contacts</a></li>
+				<li><a href="testsite.html">Testsite</a></li>
+			</ul>
+		</nav>
+
+	</header>
+
+	<main>
+		<!-- <div class="intro">
+			
+		</div>-->
+		<img id="pic" src="bilder/00.jpg">
+
+		<h2>Profitieren Sie von über 50 Jahren ELEKTRO</h2>
+		<p>Sichern Sie Ihren Erfolg durch unsere Erfahrung und bestens
+			ausgebildete Elektrotechniker. Wir bieten Ihnen professionelle
+			Lösungen aus allen Bereichen der Elektrotechnik.
+		</p>
+
+
+		<ul class="cards">
+			<li>
+				<a href="projects.html">
+					<article class="grid-card card5">
+						<p>
+							Elektroinstallation
+						</p>
+					</article>
+				</a>
+			</li>
+			<li>
+				<a href="projects.html">
+					<article class="grid-card card5">
+						<p>
+							Elektroinstallation
+						</p>
+					</article>
+				</a>
+			</li>
+			<li>
+				<a href="projects.html">
+					<article class="grid-card card5">
+						<p>
+							Elektroinstallation
+						</p>
+					</article>
+				</a>
+			</li>
+			<li>
+				<a href="projects.html">
+					<article class="grid-card card5">
+						<p>
+							Elektroinstallation
+						</p>
+					</article>
+				</a>
+			</li>
+			<li>
+				<a href="projects.html">
+					<article class="grid-card card5">
+						<p>
+							Elektroinstallation
+						</p>
+					</article>
+				</a>
+			</li>
+			<li>
+				<a href="projects.html">
+					<article class="grid-card card5">
+						<p>
+							Elektroinstallation
+						</p>
+					</article>
+				</a>
+			</li>
+		</ul>
+
+
+		<!------------------------------------------------------------------------ 
+			Maneulle Karten/ teilweise OK
+
+				<section class="grid-container">
+			<article class="grid-card card1">
+				<a href="projects.html">
+					<img src="bilder/pb00.jpg" width="100%">
+				</a>
+				<h3 style="position: absolute;">Elektroinstallation</h3>
+			</article>
+			<article class="grid-card card2">
+
+			</article>
+			<article class="grid-card card3">
+				<a href="projects.html">
+					<h3 style="position: absolute;">Elektroinstallation</h3>
+				</a>
+			</article>
+			<article class="grid-card card4">
+
+			</article>
+			<a href="projects.html">
+				<article class="grid-card card5">
+					<p>
+						Elektroinstallation
+					</p>
+				</article>
+			</a>
+
+			<article class="grid-card card6">
+
+			</article>
+			------------------------------------------------------------------------->
+		</section>
+
+		<p class="end">
+			Das Team steht Ihnen jederzeit zur Verfügung.
+		</p>
+
+		<!-- Manuell Rohner ÄHNLICH nachgebaut 
+		<div class="container">
+			<div class="container-top">
+				<p>Netzwerktechnik</p>
+			</div>
+			<div class="container-bottom">
+				<p>
+					sdflksdjgklnsdgskdln sdklgfdsgj asdlkgjsd lkgk jsdlkg
+					sdflksdjgklnsdgskdln sdklgfdsgj asdlkgjsd lkgk jsdlkg
+					asdglkj asdlgkj asdgklj asdglkj asdglkasj dglaksdj klsdjg.
+				</p>
+				<a href="#">
+					mehr...
+				</a>
+			</div>
+		</div>
+		Manuell Rohner ÄHNLICH nachgebaut -ENDE-->
+
+		<div class="rohner-grid">
+			<!-- Manuell Rohner GENAU nachgebaut -->
+			<article class="hoi">
+				<a class="test" href="#" ;>
+					<h3>
+						Gebäudeleittechnik
+					</h3>
+				</a>
+				<div>
+					<p class="descr">
+						sdflksdjgklnsdgskdln sdklgfdsgj asdlkgjsd lkgk jsdlkg
+						sdflksdjgklnsdgskdln sdklgfdsgj asdlkgjsd lkgk jsdlkg
+						asdglkj asdlgkj asdgklj asdglkj asdglkasj dglaksdj klsdjg.
+					</p>
+				</div>
+				<a href="#">
+					mehr...
+				</a>
+			</article>
+			<article class="hoi">
+				<a class="test" href="#" ;>
+					<h3>
+						Gebäudeleittechnik
+					</h3>
+				</a>
+				<div>
+					<p class="descr">
+						sdflksdjgklnsdgskdln sdklgfdsgj asdlkgjsd lkgk jsdlkg
+						sdflksdjgklnsdgskdln sdklgfdsgj asdlkgjsd lkgk jsdlkg
+						asdglkj asdlgkj asdgklj asdglkj asdglkasj dglaksdj klsdjg.
+					</p>
+				</div>
+				<a href="#">
+					mehr...
+				</a>
+			</article>
+			<article class="hoi">
+				<a class="test" href="#" ;>
+					<h3>
+						Gebäudeleittechnik
+					</h3>
+				</a>
+				<div>
+					<p class="descr">
+						sdflksdjgklnsdgskdln sdklgfdsgj asdlkgjsd lkgk jsdlkg
+						sdflksdjgklnsdgskdln sdklgfdsgj asdlkgjsd lkgk jsdlkg
+						asdglkj asdlgkj asdgklj asdglkj asdglkasj dglaksdj klsdjg.
+					</p>
+				</div>
+				<a href="#">
+					mehr...
+				</a>
+			</article>
+			<article class="hoi">
+				<a class="test" href="#" ;>
+					<h3>
+						Gebäudeleittechnik
+					</h3>
+				</a>
+				<div>
+					<p class="descr">
+						sdflksdjgklnsdgskdln sdklgfdsgj asdlkgjsd lkgk jsdlkg
+						sdflksdjgklnsdgskdln sdklgfdsgj asdlkgjsd lkgk jsdlkg
+						asdglkj asdlgkj asdgklj asdglkj asdglkasj dglaksdj klsdjg.
+					</p>
+				</div>
+				<a href="#">
+					mehr...
+				</a>
+			</article>
+			<!-- Manuell Rohner GENAU nachgebaut - ENDE -->
+
+		</div>
+
+	</main>
+
+	<footer>
+		<div>
+			<h2>Kontaktdaten</h2>
+			<address>
+				<p>Elektrovision</p>
+				<p>Hans-Meier-Straße 13<br>6020 Innsbruck, Tirol</p>
+				<p>Webseite erstellt von <a href="../authors/chris-mills/">Chris Mills</a>.</p>
+			</address>
+		</div>
+	</footer>
+
 	<button>Name ändern</button>
+
+
+
+
+
 	<script src="scripts/main.js"></script>
-  </body>
+</body>
+
 </html>
